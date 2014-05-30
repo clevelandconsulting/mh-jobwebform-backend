@@ -1,0 +1,480 @@
+2014-05-30 09:10:47The request was bigger than the PHP size limit.  It can't be bigger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523588 multipart/form-data; boundary=----WebKitFormBoundaryR6I4XeiiyBO4SGGk
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /upload.php POST
+
+2014-05-30 09:12:11The request was bigger than the PHP size limit.  It can't be bigger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523588 multipart/form-data; boundary=----WebKitFormBoundaryubUaEjq94yWjwvdi
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /upload.php POST
+
+2014-05-30 09:12:56 : The request was bigger than the PHP size limit.  It can't be bigger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523588 multipart/form-data; boundary=----WebKitFormBoundaryEEqkPVfDaiM5ifkG
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /upload.php POST
+
+2014-05-30 10:22:56 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:23:18 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:36:38 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:36:51 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:37:23 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:48:45 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:48:45 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:48:54 : The request was larger than the PHP size limit.  It can't be bigger than 0Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523588 multipart/form-data; boundary=----WebKitFormBoundary9Ahfs6UHJB6BgfVq
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /upload.php POST
+
+2014-05-30 10:49:58 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:50:00 : The file was not delivered to the server properly.  Could be it was too large: 0>8388608
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 10:50:05 : The request was larger than the PHP size limit.  It can't be bigger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523588 multipart/form-data; boundary=----WebKitFormBoundary18o18tQf75jQ5O41
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /upload.php POST
+
+2014-05-30 11:02:36 : The file was not delivered to the server properly.  Could be it was too large: >
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 11:07:18 : The file was not delivered to the server properly.  Could be it was too large: >
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /upload.php GET
+
+2014-05-30 11:17:09 : Exceeded PHP file size limit. Files can't be larger than 0Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2412863 multipart/form-data; boundary=----WebKitFormBoundaryDoMplpiNx08bYNa0
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?alias=file POST
+
+2014-05-30 11:21:44 : 
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:25:45 : Exceeded PHP file size limit. Files can't be larger than 2Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2413058 multipart/form-data; boundary=----WebKitFormBoundaryX8ZW2zxFBbEBgC6I
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:26:14 : Exceeded PHP file size limit. Files can't be larger than 2Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2413058 multipart/form-data; boundary=----WebKitFormBoundaryBHFAindT05YoLyYp
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:43:17 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:45:38 : Session ID not sent.
+	Agent: 
+	Content:  
+	Origin/Referrer:  
+	URI/Method:  
+
+2014-05-30 11:45:50 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:46:01 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:17 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:17 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:18 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:19 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:19 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:46:57 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:46:59 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:47:03 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:04 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:31 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:32 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:32 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:33 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:33 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:47:39 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:47:41 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:47:44 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php OPTIONS
+
+2014-05-30 11:48:10 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryxM0wOEG2fvxim4UJ
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:49:27 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:49:29 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:49:29 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:49:32 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryzdlqzN1h6jEBMtzL
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:49:33 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryDsBLRmr4HhXtwMkS
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:49:41 : Unable to create directory
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 8445 multipart/form-data; boundary=----WebKitFormBoundary0DQVMAM4aTNF0Ys3
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:50:30 : Unable to create directory
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 8445 multipart/form-data; boundary=----WebKitFormBoundary9BcqQjU364ICRWau
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:51:58 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 11:53:22 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryrWxjDIZnNYTSctTI
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:54:35 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryh0OWnWDMjgZGywtK
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:55:08 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundarypfqamJWsBcdB6ING
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:55:17 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryPWcjzTHAPBOu9AtP
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:56:03 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundaryAMEDyPkCTGAPemhD
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:56:27 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundary4zAjV1AS4dWmGcDc
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:56:56 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundarymBmWwLYWi7NiGs1C
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:57:16 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523788 multipart/form-data; boundary=----WebKitFormBoundarynYlwEFU7Sh7YaFyH
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:57:19 : Exceeded PHP file size limit. Files can't be larger than 2Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2413058 multipart/form-data; boundary=----WebKitFormBoundaryAYB5KKTLpoUGFOBj
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 11:57:24 : Exceeded PHP file size limit. Files can't be larger than 2Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2413058 multipart/form-data; boundary=----WebKitFormBoundaryNR6jBpBs732mHVYG
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php POST
+
+2014-05-30 12:21:01 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 12:26:28 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 12:27:49 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 12:27:51 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 12:29:20 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+2014-05-30 12:29:26 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload GET
+
+2014-05-30 12:29:47 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243 GET
+
+2014-05-30 12:30:57 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243 GET
+
+2014-05-30 12:33:13 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&test=1 GET
+
+2014-05-30 12:35:29 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&test=1 GET
+
+2014-05-30 12:35:37 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&development=1 GET
+
+2014-05-30 12:35:54 : Unknown Action
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=other&sessionId=243&development=1 GET
+
+2014-05-30 12:37:27 : Unknown Action
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=other&sessionId=243&development=1 GET
+
+2014-05-30 12:52:21 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&development=1 GET
+
+2014-05-30 12:52:47 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&development=1 GET
+
+2014-05-30 12:53:56 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&development=1 GET
+
+2014-05-30 12:53:58 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=243&development=1 GET
+
+2014-05-30 13:36:23 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 13523689 multipart/form-data; boundary=----WebKitFormBoundaryLx7Zbbp8VMiKBiS3
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload POST
+
+2014-05-30 13:53:56 : The request was larger than the PHP size limit.  It can't be larger than 8Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 562205217 multipart/form-data; boundary=----WebKitFormBoundaryR5nLBrtIc6Eo7Zc1
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload POST
+
+2014-05-30 13:55:42 : Unknown Action.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=243&development=1 GET
+
