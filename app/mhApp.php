@@ -15,15 +15,19 @@ class mhApp extends app {
   parent::check_request_meta();
   
   if (!isset($_POST['sessionId'])) {
-   if ($this->devMode && isset($_GET['sessionId'])) 
+   if (isset($_GET['sessionId'])) 
     $this->sessionId = $_GET['sessionId'];
    else 
-    $this->appError(400, 'Session ID not sent.');
+    $this->appError(400, 'Session Id not sent.');
   }
   else {
    $this->sessionId = $_POST['sessionId'];
   }
   
+ }
+ 
+ public function getUploadFilePath() {
+  return $this->config->uploadFolder . $this->sessionId . DIRECTORY_SEPARATOR;
  }
  
 }

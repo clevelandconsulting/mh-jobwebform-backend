@@ -29,6 +29,7 @@ abstract class app {
   
   if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
    //if options request, just send a blank valid response to get the appropriate headers returned
+   
    $this->setResponseBody('');
    $this->sendResponse();
    die(0);
@@ -97,6 +98,7 @@ abstract class app {
  
  public function sendResponse() {
   header("HTTP/1.1 " . $this->httpResponseCode, true, $this->httpResponseCode);
+  header('Content-Type: application/json');
   echo $this->httpResponseBody;
  }
  
@@ -111,7 +113,7 @@ abstract class app {
    return "Agent: " . $this->getServerEntity('HTTP_USER_AGENT') . 
    "\n\tContent: " . $this->getServerEntity('CONTENT_LENGTH') . " " . $this->getServerEntity('CONTENT_TYPE') . 
    "\n\tOrigin/Referrer: " . $this->getServerEntity('HTTP_ORIGIN') . " " . $this->getServerEntity('HTTP_REFERER') .
-   "\n\tURI/Method: " . $this->getServerEntity('REQUEST_URI') . " " . $this->getServerEntity('REQUEST_METHOD');
+   "\n\tURI/Method: " . $this->getServerEntity('REQUEST_URI') . " " . $this->getServerEntity('REQUEST_METHOD') . "\n" . file_get_contents('php://input');
  }
  
  private function getServerEntity($name) {

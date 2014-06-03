@@ -478,3 +478,219 @@
 	Origin/Referrer:  
 	URI/Method: /index.php?action=sendjob&sessionId=243&development=1 GET
 
+2014-06-02 16:05:55 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+
+2014-06-02 16:06:57 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+
+2014-06-02 16:09:14 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+
+2014-06-02 16:11:51 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+Array
+(
+    [HTTP_HOST] => mh-jobwebform-backend.dev
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT] => application/json, text/plain, */*
+    [HTTP_ORIGIN] => http://localhost:8000
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+    [HTTP_REFERER] => http://localhost:8000/
+    [HTTP_ACCEPT_ENCODING] => gzip,deflate,sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [PATH] => /usr/bin:/bin:/usr/sbin:/sbin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.2.24 (Unix) DAV/2 PHP/5.3.26 mod_ssl/2.2.24 OpenSSL/0.9.8y
+    [SERVER_NAME] => mh-jobwebform-backend.dev
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => /www
+    [SERVER_ADMIN] => kevinvile@gmail.com
+    [SCRIPT_FILENAME] => /www/sites/mh-jobwebform-backend/public/index.php
+    [REMOTE_PORT] => 56263
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => DELETE
+    [QUERY_STRING] => action=upload
+    [REQUEST_URI] => /index.php?action=upload
+    [SCRIPT_NAME] => /index.php
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME] => 1401739911
+)
+
+
+2014-06-02 16:13:39 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+
+
+2014-06-02 16:17:15 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload DELETE
+
+
+2014-06-02 16:20:49 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload&name=Screen%20Shot%202014-06-02%20at%2011.22.33%20AM.png&sessionId=a872b1c1-fe31-4009-e541-1843c9e87d8f DELETE
+
+
+2014-06-02 16:21:46 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload&name=Screen%20Shot%202014-06-02%20at%2011.22.33%20AM.png&sessionID=89ba35c6-961e-49b8-8a43-877cb1614ed2 DELETE
+
+
+2014-06-02 16:22:25 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-02 16:22:30 : Session ID not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content:  
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload&name=Screen%20Shot%202014-06-02%20at%2011.22.33%20AM.png&sessionID=89ba35c6-961e-49b8-8a43-877cb1614ed2 DELETE
+
+
+2014-06-02 16:43:19 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-02 16:49:17 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-02 16:50:43 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-02 16:50:45 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-02 16:50:48 : Session Id not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 1208 application/json;charset=UTF-8
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=sendjob POST
+{"data":{"collateral":{"email":[{"useFieldMarketing":true,"type":"email","data":{"deploymentStates":["Alaska"],"schoolBuildings":["9-12"],"listSources":["MH-Owned"],"deploymentDate":"2014-06-18","campaignEndDate":"2014-06-10","targetAudience":"fwe"}}],"print-digital":[{"useFieldMarketing":true,"type":"print-digital","data":{"deliveryDate":"2014-06-17"}}],"webinar":[{"type":"webinar","data":{"presenter":{},"additionalInformation":{},"deploymentDate":"2014-07-02","purposes":["Partnership Building"]}}]},"requestDate":"2014-06-02","mediums":{"email":true,"print-digital":true,"webinar":true},"requestorName":"ewf","fieldMarketing":"sales rep","product":{"name":"A History of Europe in the Modern World","value":"A History of Europe in the Modern World","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"A History of Europe in the Modern World","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"efw","multipleCollateral":"yes","multipleCollateralType":"event","title":"wef","districtManager":"Manager 2","creativeBrief":["Screen Shot 2014-06-02 at 11.22.33 AM.png"]},"sessionId":"32b8b387-c401-49ee-ebd9-d37f2ea31ead"}
+
+2014-06-03 07:22:11 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:24:52 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:24:54 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:35:32 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:47:12 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:50:19 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:50:23 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:51:04 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 07:52:36 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 08:11:45 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 08:11:47 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-03 08:12:34 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+

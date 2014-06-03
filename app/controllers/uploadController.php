@@ -9,7 +9,30 @@ class uploadController extends controller {
   $this->methodNotAllowed();
  }
  public function delete() {
-  $this->methodNotAllowed();
+  
+  if ( isset( $_GET['name'] ) ) {
+   $filename = $this->getUploadFilePath() . $_GET['name'];
+   
+   if(file_exists($filename)) {
+    $result = unlink($filename); 
+   }
+   else {
+    $result = true;
+   }
+   
+   if ( $result ) {
+    $this->setResponse(204,'');
+   }
+   else {
+    $this->setError(500,'Unable to delete the file ' . $_GET['name'] . '.');
+   }
+   
+  }
+  else {
+   $this->setError(400,'File name was not sent');
+  }
+  
+  $this->display();
  }
  public function put() {
   $this->methodNotAllowed();
@@ -20,7 +43,7 @@ class uploadController extends controller {
   
   if (!$this->hasError()) {
    $tempPath = $file[ 'tmp_name' ];
-   $uploadPath = $this->app->config->uploadFolder . $this->app->sessionId . DIRECTORY_SEPARATOR;
+   $uploadPath = $this->getUploadFilePath();
    
    try {
    
@@ -85,6 +108,10 @@ class uploadController extends controller {
   
   if (!$this->hasError())
    return $_FILES[$alias];
+ }
+ 
+ private function getUploadFilePath() {
+  return $this->app->getUploadFilePath();
  }
 }
 
