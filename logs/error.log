@@ -694,3 +694,290 @@ Array
 	URI/Method: /index.php GET
 
 
+2014-06-03 14:38:21 : Missing job data.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=2389326 GET
+
+
+2014-06-03 14:38:49 : Missing job data.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=2389326 GET
+
+
+2014-06-03 14:39:12 : Missing job data.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=2389326 GET
+
+
+2014-06-03 14:39:46 : This method is not allowed.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-03 14:40:20 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-03 14:40:20 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-03 14:41:00 : The request was larger than the PHP size limit.  It can't be larger than 0Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 8346 multipart/form-data; boundary=----WebKitFormBoundaryfDp8EilZixWALyhk
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload POST
+
+
+2014-06-04 10:30:54 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:30:54 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:39:23 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:39:23 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:39:46 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:39:46 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:40:10 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:40:10 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:40:23 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:40:23 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:41:01 : Exceeded PHP file size limit. Files can't be larger than 2Mb.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 2412959 multipart/form-data; boundary=----WebKitFormBoundaryV7rlOwPAoaTAxSiA
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=upload POST
+
+
+2014-06-04 10:42:54 : Missing job data.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+	Content: 0 application/json;charset=UTF-8
+	Origin/Referrer: http://localhost:8000 http://localhost:8000/
+	URI/Method: /index.php?action=sendjob&sessionId=98dfdd91-f010-401c-8743-21c3d2524231 POST
+
+
+2014-06-04 10:49:32 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:49:32 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:49:33 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:49:33 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:59:54 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 10:59:54 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:08:10 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:08:10 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:08:13 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:08:13 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:10:24 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:10:24 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:15 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:15 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:17 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:17 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:34 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:11:34 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:18:53 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:18:53 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:19:43 : File alias not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+
+2014-06-04 11:19:43 : The file was not delivered to the server properly.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=upload&sessionId=2389326 GET
+
+

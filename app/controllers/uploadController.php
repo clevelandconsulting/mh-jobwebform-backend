@@ -1,12 +1,19 @@
 <?php
 
-class uploadController extends controller {
+class uploadController extends viewController {
+
+ public function __construct($app) {
+  require_once($app->config->viewFolder . 'uploadView.php');
+  $view = new uploadView();
+  parent::__construct($view,$app);
+ }
 
  public function post() {
   $this->upload();
  }
- public function get() {
-  $this->methodNotAllowed();
+ public function get() { 
+  $this->upload();
+//  $this->methodNotAllowed();
  }
  public function delete() {
   

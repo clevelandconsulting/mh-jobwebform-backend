@@ -1,15 +1,19 @@
 <?php
 
-class router {
+require_once('controller.php');
+
+abstract class router extends controller {
  private $routes;
  
- public function __construct() {
+ public function __construct($app) {
+  parent::__construct($app);
   $this->routes = Array();
  }
  
- public function getControllerName($action) {
+ public function getControllerName() {
+ 
   foreach ($this->routes as $route) {
-   if ($route->isRoute($action)) {
+   if ($route->isRoute($this->getAction())) {
     return $route->getControllerName();
    }
   }
@@ -19,6 +23,8 @@ class router {
  public function defineRoute($route) {
   array_push($this->routes,$route);
  }
+ 
+ abstract public function getAction();
  
 }
 

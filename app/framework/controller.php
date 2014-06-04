@@ -1,18 +1,20 @@
 <?php
 
+require_once("error.php");
+
 abstract class controller {
  protected $app;
  protected $error;
  
  public function __construct($app) {
   $this->app = $app; 
-  $this->error = '';
-  $this->response = '';
+  $this->clearError();
   
  }
  
  public function setError($code,$message) {
-  $this->error = new controllerResponse($code,$message);
+  $this->error = new framework_error($code,$message);
+  $this->appendErrorLog($message);
  }
  
  public function hasError() {
@@ -20,43 +22,32 @@ abstract class controller {
   else return true;
  }
  
- protected function setResponse($code,$body) {
-  $this->response = new controllerResponse($code, $body);
+ public function clearError() {
+   $this->error = '';
  }
  
- protected function methodNotAllowed($message='') {
-  $message = $message == '' ? 'This method is not allowed.' : $message;
-  $this->setError(405,$message);
-  $this->display();
+ public function getError() {
+   return $this->error;
  }
  
- private function getResponse() {
-  if ( $this->hasError() ) return $this->error;
-  return $this->response;
- }
- 
- public function display() {
-  $response = $this->getResponse();
-  $this->app->setResponseCode($response->code);
-  $this->app->setResponseBody($response->body);
+ public function appendErrorLog($message) {
+  $ts = date('Y-m-d H:i:s') . ' : ';
+  $serverInfo = $this->getServerInfo();
   
-  $this->app->sendResponse();
+  file_put_contents($this->app->config->logFolder . 'error.log', $ts . $message . "\n\t" . $serverInfo . "\n\n", FILE_APPEND);
  }
  
- abstract public function post();
- abstract public function get();
- abstract public function delete();
- abstract public function put();
-}
-
-class controllerResponse {
- public $code;
- public $body;
- 
- public function __construct($code,$body) {
-  $this->code = $code;
-  $this->body = $body;
+ private function getServerInfo() {
+   return "Agent: " . $this->getServerEntity('HTTP_USER_AGENT') . 
+   "\n\tContent: " . $this->getServerEntity('CONTENT_LENGTH') . " " . $this->getServerEntity('CONTENT_TYPE') . 
+   "\n\tOrigin/Referrer: " . $this->getServerEntity('HTTP_ORIGIN') . " " . $this->getServerEntity('HTTP_REFERER') .
+   "\n\tURI/Method: " . $this->getServerEntity('REQUEST_URI') . " " . $this->getServerEntity('REQUEST_METHOD') . "\n" . file_get_contents('php://input');
  }
+ 
+ private function getServerEntity($name) {
+  if ( isset ($_SERVER[$name])) return $_SERVER[$name];
+ }
+  
 }
 
 ?>
