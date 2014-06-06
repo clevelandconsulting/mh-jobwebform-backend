@@ -1,0 +1,49 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Video Details</h5></td></tr>
+  <tr><td class='label'>Deployment Date:</td><td class='data'>{{ typeData.deploymentDate | date }}</td></tr>
+  
+  <tr>
+   <td class='label'>Related Product Category:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.relatedCategories }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.relatedCategories }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr>
+   <td class='label'>Communication Purpose:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.purposes }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.purposes }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Primary Audience:</td><td class='data'>{{ typeData.primaryAudience }}</td></tr>
+  <tr><td class='label'>Secondary Audience:</td><td class='data'>{{ typeData.secondaryAudience }}</td></tr>
+  <tr><td class='label'>Tertiary Audience:</td><td class='data'>{{ typeData.tertiaryAudience }}</td></tr>
+  
+  <tr><td class='label'>Purpose For Video Creation:</td><td class='data'>{{ typeData.videoPurpose }}</td></tr>
+  <tr><td class='label'>Main Communication Objective:</td><td class='data'>{{ typeData.mainObjective }}</td></tr>
+  <tr><td class='label'>Main Message:</td><td class='data'>{{ typeData.mainMessage }}</td></tr>
+  
+  <tr>
+   <td class='label'>Distribution Channels:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.channels }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.channels }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Months Live In Market:</td><td class='data'>{{ typeData.monthsInMarket }}</td></tr>
+  
+ </table>

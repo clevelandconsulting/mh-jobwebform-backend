@@ -1,0 +1,19 @@
+  {{%FILTERS}}
+ <h4>Job Request - {{Type | jobType }}</h4>
+ <table class='job'>
+  {{# MultipleCollateralType}}
+   <tr><td class='label'>Mulitple Collateral Type:</td><td class='data'>{{ . }}</td></tr>
+  {{/ MultipleCollateralType}}
+  <tr><td class='label'>Project Title:</td><td class='data'>{{title}}</td></p>
+  <tr><td class='label'>Requested By:</td><td class='data'>{{requestorName}} On: {{requestDate | date }}</td></tr>
+  <tr><td class='label'>Product:</td><td class='data'>{{product}}</td></tr>
+  <tr><td class='label'>Portfolio:</td><td class='data'>{{portfolio}}</td></tr>
+  <tr><td class='label'>Discipline:</td><td class='data'>{{discipline}}</td></tr>
+  <tr><td class='label'>Sales Rep or Consultant Request:</td><td class='data'>{{FieldMarketing}}</td></tr>
+  {{# Managers}}
+   <tr><td class='label'>{{type}} Manager:</td><td class='data'>{{name}}</td></tr>
+  {{/ Managers}}
+  {{^ Managers}}
+   <tr><td colspan='2'>No Manager Specified</td></tr>
+  {{/ Managers}}
+  <tr><td class='label'>Creative Brief:</td><td class='data'>{{# creativeBrief}}{{.}} {{/ creativeBrief}}</td></tr>

@@ -1,6 +1,8 @@
 <?php
 
-class framework_error {
+require_once("object.php");
+
+class framework_error extends framework_object  {
  public $code;
  public $message;
  

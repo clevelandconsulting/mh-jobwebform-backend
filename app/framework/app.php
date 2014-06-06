@@ -4,12 +4,13 @@ define('MB_BYTE', 1048576);
 
 require_once('error.php');
 require_once('config.php');
-require_once('router.php');
+require_once('model.php');
 require_once('viewController.php');
 require_once('httpView.php');
+require_once('router.php');
 require_once('mailer.php');
 
-abstract class app {
+abstract class app extends framework_object  {
  public $router;
  public $config;
  public $mailer;

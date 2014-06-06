@@ -1,0 +1,32 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Microsite/Splash Details</h5></td></tr>
+  <tr><td class='label'>Deployment Date:</td><td class='data'>{{ typeData.deploymentDate | date }}</td></tr>
+  <tr><td class='label'>Relevant Factors For Date:</td><td class='data'>{{ typeData.deploymentDateFactors }}</td></tr>
+  <tr><td class='label'>Pre-existing URL:</td><td class='data'>{{ typeData.existingURL }}</td></tr>
+  <tr><td class='label'>Redesign Main Reason:</td><td class='data'>{{ typeData.redesignReason }}</td></tr>
+  <tr><td class='label'>Primary Audience:</td><td class='data'>{{ typeData.primaryAudience }}</td></tr>
+  <tr><td class='label'>Secondary Audience:</td><td class='data'>{{ typeData.secondaryAudience }}</td></tr>
+  <tr><td class='label'>Tertiary Audience:</td><td class='data'>{{ typeData.tertiaryAudience }}</td></tr>
+  <tr><td class='label'>Budget:</td><td class='data'>{{ typeData.budget }}</td></tr>
+  <tr><td class='label'>Months Live In Market:</td><td class='data'>{{ typeData.monthsInMarket }}</td></tr>
+  
+  <tr>
+   <td class='label'>Customer Requests:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.customerRequests }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.customerRequests }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>More Info Option:</td><td class='data'>{{ typeData.moreInfo }}</td></tr>
+  
+  <tr><td colspan='2' style='text-align:center'>Priorities</td></tr>
+  <tr><td class='label'>Time:</td><td class='data'>{{typeData.priorities.time}}</td></tr>
+  <tr><td class='label'>Budget:</td><td class='data'>{{typeData.priorities.budget}}</td></tr>
+  <tr><td class='label'>Quality:</td><td class='data'>{{typeData.priorities.quality}}</td></tr>
+
+ </table>

@@ -1,8 +1,9 @@
 <?php
 
+require_once("object.php");
 require_once("error.php");
 
-abstract class controller {
+abstract class controller extends framework_object {
  protected $app;
  protected $error;
  

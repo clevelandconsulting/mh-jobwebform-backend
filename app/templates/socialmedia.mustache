@@ -1,0 +1,34 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Socialmedia Details</h5></td></tr>
+  <tr><td class='label'>Deployment Date:</td><td class='data'>{{ typeData.deploymentDate | date }}</td></tr>
+  <tr><td class='label'>Link to URL:</td><td class='data'>{{ typeData.link }}</td></tr>
+  <tr><td class='label'>Network Path:</td><td class='data'>{{ typeData.networkPath }}</td></tr>
+  
+  <tr>
+   <td class='label'>Related Product Category:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.relatedCategories }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.relatedCategories }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr>
+   <td class='label'>Communication Purpose:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.purposes }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.purposes }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Key Message:</td><td class='data'>{{ typeData.keyMessage }}</td></tr>
+  <tr><td class='label'>Keywords:</td><td class='data'>{{ typeData.keywords }}</td></tr>
+  <tr><td class='label'>Orgs, Groups, Audiences:</td><td class='data'>{{ typeData.audiences }}</td></tr>
+  
+ </table>

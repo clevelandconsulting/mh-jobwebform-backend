@@ -1,0 +1,56 @@
+{
+   "data":{
+      "collateral":{
+         "email":[
+            {
+               "useFieldMarketing":true,
+               "type":"email",
+               "data":{
+                  "deploymentDate":"2014-06-10",
+                  "campaignEndDate":"2014-06-10",
+                  "targetAudience":"ge4",
+                  "deploymentStates":[
+                     "Arizona"
+                  ],
+                  "schoolBuildings":[
+                     "K-8"
+                  ],
+                  "primaryObjectives":[
+                     "Gather Leads"
+                  ],
+                  "blackOutTerritories":"egr",
+                  "listSources":[
+                     "MH-Owned"
+                  ],
+                  "callToAction":"ger",
+                  "bodyCopy":"egrgaerg",
+                  "subjectLine":"4323"
+               }
+            }
+         ]
+      },
+      "requestDate":"2014-06-04",
+      "mediums":{
+
+      },
+      "requestorName":"Albert Einstein",
+      "fieldMarketing":"sales rep",
+      "product":{
+         "name":"A History of Europe in the Modern World",
+         "value":"A History of Europe in the Modern World",
+         "discipline":"Advanced Placement / Honors",
+         "portfolio":"Specialized Solutions"
+      },
+      "productValue":"A History of Europe in the Modern World",
+      "portfolio":"Specialized Solutions",
+      "discipline":"Advanced Placement / Honors",
+      "costCenter":"23",
+      "multipleCollateral":"no",
+      "medium":"email",
+      "title":"wwafeaw f2w3",
+      "districtManager":"Manager 1",
+      "creativeBrief":[
+         "IMG_6219-800x600.jpg"
+      ]
+   }
+}

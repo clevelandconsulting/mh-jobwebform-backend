@@ -1,0 +1,64 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Email Details</h5></td></tr>
+  <tr><td class='label'>Deployment Date:</td><td class='data'>{{ typeData.deploymentDate | date }}</td></tr>
+  <tr><td class='label'>Campaign End Date:</td><td class='data'>{{ typeData.campaignEndDate | date }}</td></tr>
+  <tr><td class='label'>Target Audience Description:</td><td class='data'>{{ typeData.targetAudience }}</td></tr>
+  
+  <tr>
+   <td class='label'>Deployment States:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.deploymentStates }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.deploymentStates}}
+    </table>
+   </td>
+  </tr>
+  
+  <tr>
+   <td class='label'>School Buildings:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.schoolBuildings }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.schoolBuildings }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Blackout Territories:</td><td class='data'>{{ typeData.blackOutTerritories }}</td></tr>
+  
+  <tr>
+   <td class='label'>Email Primiary Business Objectives:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.primaryObjectives }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.primaryObjectives }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr>
+   <td class='label'>Email List Sources:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.listSources }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.listSources }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Other Associated Marketing Collateral:</td><td class='data'>{{ typeData.otherCollateral }}</td></tr>
+  
+  {{# typeFieldMarketing }}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Regional Specific Needs</h5></td></tr>
+  <tr><td class='label'>Email Subject Line:</td><td class='data'>{{ typeData.subjectLine }}</td></tr>
+  <tr><td class='label'>Email Body Copy:</td><td class='data'>{{ typeData.bodyCopy }}</td></tr>
+  <tr><td class='label'>Email Call To Action:</td><td class='data'>{{ typeData.callToAction }}</td></tr>
+  {{/ typeFieldMarketing }}
+  
+ </table>
+  

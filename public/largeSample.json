@@ -1,0 +1,172 @@
+{
+   "data":{
+      "collateral":{
+         "email":[
+            {
+               "useFieldMarketing":false,
+               "type":"email",
+               "data":{
+                  "deploymentDate":"2014-06-09",
+                  "campaignEndDate":"2014-06-02",
+                  "targetAudience":"t4w4g4q 4",
+                  "deploymentStates":[
+                     "Alaska"
+                  ],
+                  "schoolBuildings":[
+                     "K-8"
+                  ],
+                  "blackOutTerritories":"t43t 4",
+                  "primaryObjectives":[
+                     "General Awareness"
+                  ],
+                  "listSources":[
+                     "MDR"
+                  ],
+                  "otherCollateral":"t434t3"
+               }
+            }
+         ],
+         "microsite-splash":[
+            {
+               "type":"microsite-splash",
+               "data":{
+                  "priorities":{
+                     "time":1,
+                     "budget":1,
+                     "quality":1
+                  },
+                  "deploymentDate":"2014-06-09",
+                  "deploymentDateFactors":"43t tq43",
+                  "existingURL":"43 q34g",
+                  "redesignReason":"gqgq 34",
+                  "primaryAudience":"3gq4",
+                  "secondaryAudience":"34 gq",
+                  "tertiaryAudience":"4gq3g",
+                  "budget":"4tr23",
+                  "monthsInMarket":4,
+                  "customerRequests":[
+                     "Hardcopy product samples"
+                  ],
+                  "moreInfo":"yes"
+               }
+            }
+         ],
+         "print-digital":[
+            {
+               "useFieldMarketing":false,
+               "type":"print-digital",
+               "data":{
+                  "deliveryDate":"2014-06-02",
+                  "isRevision":true,
+                  "revisionType":"job",
+                  "revisionNumber":"w4t24",
+                  "warehouse":"yes",
+                  "estimateQuantity":"wef2352"
+               }
+            }
+         ],
+         "socialmedia":[
+            {
+               "type":"socialmedia",
+               "data":{
+                  "deploymentDate":"2014-06-17",
+                  "link":"fwew3",
+                  "networkPath":"23r2 3",
+                  "relatedCategories":[
+                     "Specialized Solutions"
+                  ],
+                  "purposes":[
+                     "Brand promotion"
+                  ],
+                  "keyMessage":"rega 4g4g",
+                  "keywords":"23 efgwf3f",
+                  "audiences":"f23qr3"
+               }
+            }
+         ],
+         "video":[
+            {
+               "type":"video",
+               "data":{
+                  "deploymentDate":"2014-06-17",
+                  "relatedCategories":[
+                     "6-12"
+                  ],
+                  "purposes":[
+                     "Industry Awareness/News"
+                  ],
+                  "primaryAudience":"f3",
+                  "secondaryAudience":"r23",
+                  "tertiaryAudience":"33r2",
+                  "videoPurpose":"23r",
+                  "mainObjective":"r23",
+                  "mainMessage":"r32",
+                  "channels":[
+                     "ConnectEd"
+                  ]
+               }
+            }
+         ],
+         "webinar":[
+            {
+               "type":"webinar",
+               "data":{
+                  "presenter":{
+                     "Name":"3qq23",
+                     "Email":"2r2r3",
+                     "Title":"r2",
+                     "Organization":"r3r32"
+                  },
+                  "additionalInformation":{
+                     "CEU":true,
+                     "Incentives":true,
+                     "Polling":true,
+                     "Exit-Survey":true,
+                     "Free-Resources":true,
+                     "Follow-Up":true,
+                     "Leads":true
+                  },
+                  "deploymentDate":"2014-06-02",
+                  "startTime":"12:00",
+                  "endTime":"13:59",
+                  "title":"r23",
+                  "purposes":[
+                     "Brand promotion"
+                  ],
+                  "objective":"rqa3t 2f",
+                  "additionalPeople":3
+               }
+            }
+         ]
+      },
+      "requestDate":"2014-06-04",
+      "mediums":{
+         "print-digital":true,
+         "email":true,
+         "microsite-splash":true,
+         "socialmedia":true,
+         "webinar":true,
+         "video":true
+      },
+      "fieldMarketing":"neither",
+      "creativeBrief":[
+         "IMG_6219-800x600.jpg"
+      ],
+      "requestorName":"Name",
+      "product":{
+         "name":"Introduction to Accounting",
+         "value":"Introduction to Accounting",
+         "discipline":"Advanced Placement / Honors",
+         "portfolio":"Specialized Solutions"
+      },
+      "productValue":"Introduction to Accounting",
+      "portfolio":"Specialized Solutions",
+      "discipline":"Advanced Placement / Honors",
+      "costCenter":"25408 282 r",
+      "multipleCollateral":"yes",
+      "multipleCollateralType":"event",
+      "title":"My Title",
+      "relationshipManager":"Manager 2",
+      "productManager":"Manager 1"
+   }
+}

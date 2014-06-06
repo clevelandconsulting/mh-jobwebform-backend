@@ -1,0 +1,70 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Webinar Details</h5></td></tr>
+  <tr><td class='label'>Deployment Date:</td><td class='data'>{{ typeData.deploymentDate | date }}</td></tr>
+  <tr><td class='label'>Start Time:</td><td class='data'>{{ typeData.startTime }}</td></tr>
+  <tr><td class='label'>End Time:</td><td class='data'>{{ typeData.endTime }}</td></tr>
+  <tr><td class='label'>Webinar Title:</td><td class='data'>{{ typeData.title }}</td></tr>
+  
+  <tr>
+   <td class='label'>Webinar Purpose:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.purposes }}
+    <tr><td style='padding: 2px; margin: 0px;'>{{.}}</td></tr>
+    {{/ typeData.purposes }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td class='label'>Webinar Objective:</td><td class='data'>{{ typeData.objective }}</td></tr>
+  <tr>
+   <td class='label'>Registration Information:</td>
+   <td class='data'>
+    <table class='job'>
+    {{# typeData.additionalInformation }}
+     
+     {{# CEU }}
+     <tr><td style='padding: 2px; margin: 0px;'>CEU Credit</td></tr>
+     {{/ CEU }}
+     
+     {{# Incentives }}
+     <tr><td style='padding: 2px; margin: 0px;'>Attendee Incentives</td></tr>
+     {{/ Incentives }}
+     
+     {{# Polling }}
+     <tr><td style='padding: 2px; margin: 0px;'>Polling Questions</td></tr>
+     {{/ Polling }}
+     
+     {{# Exit-Survey }}
+     <tr><td style='padding: 2px; margin: 0px;'>Exit Survey</td></tr>
+     {{/ Exit-Survey }}
+     
+     {{# Free-Resources }}
+     <tr><td style='padding: 2px; margin: 0px;'>Free Resources</td></tr>
+     {{/ Free-Resources }}
+     
+     {{# Follow-Up }}
+     <tr><td style='padding: 2px; margin: 0px;'>Follow-Up</td></tr>
+     {{/ Follow-Up }}
+     
+     {{# Leads }}
+     <tr><td style='padding: 2px; margin: 0px;'>Leads</td></tr>
+     {{/ Leads }}
+     
+    {{/ typeData.additionalInformation }}
+    </table>
+   </td>
+  </tr>
+  
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Presenter Details</h5></td></tr>
+  <tr><td class='label'>Name:</td><td class='data'>{{ typeData.presenter.Name }}</td></tr>
+  <tr><td class='label'>Email:</td><td class='data'>{{ typeData.presenter.Email }}</td></tr>
+  <tr><td class='label'>Title:</td><td class='data'>{{ typeData.presenter.Title }}</td></tr>
+  <tr><td class='label'>Organization:</td><td class='data'>{{ typeData.presenter.Organization }}</td></tr>
+  <tr><td class='label'>Photo:</td><td class='data'>{{ typeData.presenter.Photo }}</td></tr>
+  <tr><td class='label'>Additional People:</td><td class='data'>{{ typeData.additionalPeople }}</td></tr>
+
+  
+  
+ </table>

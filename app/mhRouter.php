@@ -5,8 +5,8 @@ class mhRouter extends router {
  private $sessionId;
  private $action;
  
- public function __construct() {
-  parent::__construct();
+ public function __construct($app) {
+  parent::__construct($app);
   
   if (!isset($_GET['action'])) {
     $this->setError(400, 'Action not sent.');

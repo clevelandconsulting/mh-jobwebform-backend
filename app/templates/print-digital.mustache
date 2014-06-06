@@ -1,0 +1,24 @@
+ {{%FILTERS}}
+ {{> job}}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Print/Digital Details</h5></td></tr>
+  <tr><td class='label'>Delivery Date:</td><td class='data'>{{ typeData.deliveryDate | date }}</td></tr>
+  <tr><td class='label'>Estimate Quantity:</td><td class='data'>{{ typeData.estimateQuantity }}</td></tr>
+  <tr><td class='label'>Collateral Needed:</td><td class='data'>{{ typeData.collateralNeeded }}</td></tr>
+  <tr><td class='label'>Revision:</td><td class='data'>{{ typeData.isRevision }}</td></tr>
+  
+  {{# typeData.isRevision }}
+  <tr><td class='label'>Revision Type:</td><td class='data'>{{ typeData.revisionType | uc }}</td></tr>
+  <tr><td class='label'>{{ typeData.revisionType | uc }} Number:</td><td class='data'>{{ typeData.revisionNumber }}</td></tr>
+  {{/ typeData.isRevision }}
+  
+  <tr><td class='label'>Stored In Warehouse:</td><td class='data'>{{ typeData.warehouse | uc }}</td></tr>
+  
+  {{# typeFieldMarketing }}
+  <tr><td colspan='2'><h5 class='jobsubtitle'>Field Marketing</h5></td></tr>
+  <tr><td class='label'>Opportunity:</td><td class='data'>{{ typeData.opportunity }}</td></tr>
+  <tr><td class='label'>Project Details:</td><td class='data'>{{ typeData.specificProjectDetails }}</td></tr>
+  <tr><td class='label'>Product ISBNs:</td><td class='data'>{{ typeData.productISBNs }}</td></tr>
+  <tr><td class='label'>Shipping Instructions:</td><td class='data'>{{ typeData.shippingInstructions }}</td></tr>
+  {{/ typeFieldMarketing }}
+  
+ </table>

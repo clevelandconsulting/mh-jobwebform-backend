@@ -13,6 +13,7 @@ class httpView extends view {
  private $content_type;
  
  public function __construct($mode) {
+  parent::__construct();
   $this->setMode($mode); 
   $this->headers = Array();
  }

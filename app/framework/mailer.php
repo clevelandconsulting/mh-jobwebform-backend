@@ -1,6 +1,6 @@
 <?php
 
-class mailer {
+class mailer extends model {
  private $config;
  private $phpMail;
  

@@ -1,5 +1,7 @@
 <?php
 
+require_once('controller.php');
+
 abstract class viewController extends controller {
 
  protected $view;
