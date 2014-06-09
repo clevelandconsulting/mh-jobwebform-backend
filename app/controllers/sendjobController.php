@@ -17,8 +17,9 @@ class sendjobController extends viewController {
   $this->display();
  }
  public function get() {
-  $this->getJobData(true);
-  $this->display();
+  //$this->getJobData(true);
+  //$this->display();
+  $this->methodNotAllowed();
  }
  public function delete() {
   $this->methodNotAllowed();
