@@ -17,7 +17,7 @@ class sendjobView extends httpView {
 
  }
  
- public function renderJobs($jobs) {
+ public function renderJobs($jobs, $sessionId) {
   $jobHTMLArray = Array();
   foreach($jobs as $job) {
     array_push($jobHTMLArray, $this->renderJob($job));
@@ -26,6 +26,7 @@ class sendjobView extends httpView {
   $result = $this->mustache->render('jobs', 
    array(
     'jobs'=>$jobHTMLArray, 
+    'sessionId'=>$sessionId,
     'strong'=> function ($text, Mustache_LamdaHelper $helper) {
      return $helper->render('> strong',$text);
     } 

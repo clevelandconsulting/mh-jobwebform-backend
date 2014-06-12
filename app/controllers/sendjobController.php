@@ -50,7 +50,7 @@ class sendjobController extends viewController {
     $this->jobHandler = new jobHandler($data);
     $jobs = $this->jobHandler->getJobs();
     
-    $htmlMessage = $this->view->renderJobs($jobs);
+    $htmlMessage = $this->view->renderJobs($jobs, $this->app->getSessionId());
     $altMessage = '';
     
     $message['body'] = $htmlMessage;
