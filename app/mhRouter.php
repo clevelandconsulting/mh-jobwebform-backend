@@ -7,7 +7,9 @@ class mhRouter extends router {
  
  public function __construct($app) {
   parent::__construct($app);
-  
+ }
+ 
+ public function validate() {
   if (!isset($_GET['action'])) {
     $this->setError(400, 'Action not sent.');
   }
@@ -25,7 +27,6 @@ class mhRouter extends router {
     }
     
   }
-    
  }
  
  public function getSessionId() {

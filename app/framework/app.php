@@ -32,6 +32,8 @@ abstract class app extends framework_object  {
   $this->mailer = $mailer;
   $this->httpResponseCode = 200;
   $this->devMode = false;
+  
+  $this->router->validate();
  
  }
   

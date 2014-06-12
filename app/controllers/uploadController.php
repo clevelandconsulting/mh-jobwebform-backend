@@ -12,8 +12,8 @@ class uploadController extends viewController {
   $this->upload();
  }
  public function get() { 
-  $this->upload();
-//  $this->methodNotAllowed();
+  //$this->upload();
+  $this->methodNotAllowed();
  }
  public function delete() {
   

@@ -62,7 +62,7 @@
   <tr><td class='label'>Email:</td><td class='data'>{{ typeData.presenter.Email }}</td></tr>
   <tr><td class='label'>Title:</td><td class='data'>{{ typeData.presenter.Title }}</td></tr>
   <tr><td class='label'>Organization:</td><td class='data'>{{ typeData.presenter.Organization }}</td></tr>
-  <tr><td class='label'>Photo:</td><td class='data'>{{ typeData.presenter.Photo }}</td></tr>
+  <tr><td class='label'>Photo:</td><td class='data'>{{# typeData.photo }}{{.}}{{/ typeData.photo }}</td></tr>
   <tr><td class='label'>Additional People:</td><td class='data'>{{ typeData.additionalPeople }}</td></tr>
 
   

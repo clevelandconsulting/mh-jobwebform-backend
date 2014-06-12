@@ -1121,3 +1121,17 @@ Array
 	URI/Method: /index.php?action=upload&sessionId=21885d43-9ccb-484f-c1b6-cee490405af4 POST
 
 
+2014-06-12 09:04:24 : Session Id not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob GET
+
+
+2014-06-12 09:04:40 : Session Id not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob GET
+
+

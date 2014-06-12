@@ -5,9 +5,12 @@ require_once('mhRouter.php');
 
 class mhApp extends app {
 
- public function __construct($smtpConfig='') {
+ public function __construct($smtpConfig='', $appConfig='') {
+ 
   $mailer = $smtpConfig != '' ? new mailer($smtpConfig) : "";
-  parent::__construct(new config(), new mhRouter($this), $mailer);
+  $config = $appConfig != '' ? $appConfig : new config();
+  parent::__construct($config, new mhRouter($this), $mailer);
+  
  }
  
  public function getSessionId() {

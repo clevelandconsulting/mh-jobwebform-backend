@@ -1,0 +1,82 @@
+{
+   "data":{
+      "collateral":{
+         "webinar":[
+            {
+               "type":"webinar",
+               "data":{
+                  "presenter":{
+                     "Name":"4t24"
+                  },
+                  "additionalInformation":{
+                     "Incentives":true,
+                     "Polling":true
+                  },
+                  "deploymentDate":"2014-06-10",
+                  "title":"3434",
+                  "purposes":[
+                     "Brand promotion"
+                  ],
+                  "photo":[
+                     "fotr0147.jpg"
+                  ]
+               }
+            },
+            {
+               "type":"webinar",
+               "data":{
+                  "presenter":{
+
+                  },
+                  "additionalInformation":{
+                     "Exit-Survey":true
+                  },
+                  "photo":[
+                     "DSCN6241 copy.JPG"
+                  ],
+                  "purposes":[
+                     "Industry Awareness/News"
+                  ],
+                  "deploymentDate":"2014-06-25"
+               }
+            }
+         ],
+         "email":[
+            {
+               "useFieldMarketing":true,
+               "type":"email",
+               "data":{
+                  "deploymentDate":"2014-06-17",
+                  "deploymentStates":[
+                     "Alaska"
+                  ]
+               }
+            }
+         ]
+      },
+      "requestDate":"2014-06-09",
+      "mediums":{
+         "email":true,
+         "webinar":true
+      },
+      "requestorName":"test",
+      "fieldMarketing":"sales rep",
+      "product":{
+         "name":"Connect Plus",
+         "value":"Connect Plus",
+         "discipline":"Advanced Placement / Honors",
+         "portfolio":"Specialized Solutions"
+      },
+      "productValue":"Connect Plus",
+      "portfolio":"Specialized Solutions",
+      "discipline":"Advanced Placement / Honors",
+      "costCenter":"tes",
+      "multipleCollateral":"yes",
+      "multipleCollateralType":"event",
+      "title":"twe",
+      "districtManager":"Manager 2",
+      "creativeBrief":[
+         "MerryChristmas.jpg"
+      ]
+   }
+}

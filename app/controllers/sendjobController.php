@@ -17,9 +17,9 @@ class sendjobController extends viewController {
   $this->display();
  }
  public function get() {
-  //$this->getJobData(true);
-  //$this->display();
-  $this->methodNotAllowed();
+  $this->getJobData(true);
+  $this->display();
+  //$this->methodNotAllowed();
  }
  public function delete() {
   $this->methodNotAllowed();
@@ -32,7 +32,7 @@ class sendjobController extends viewController {
   $data = '';
   
   if($test) {
-   $data = json_decode(file_get_contents('largeSample.json'));
+   $data = json_decode(file_get_contents('sample2.json'));
   }
   else {
    if (isset($_POST['data'])) {

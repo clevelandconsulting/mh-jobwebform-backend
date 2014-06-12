@@ -25,6 +25,7 @@ abstract class router extends controller {
  }
  
  abstract public function getAction();
+ abstract public function validate();
  
 }
 

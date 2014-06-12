@@ -1,7 +1,5 @@
 <?php
 
-ini_set('display_errors', '1');
-
 date_default_timezone_set('America/Detroit');
 
 require_once('../vendor/autoload.php');
@@ -20,13 +18,21 @@ $smtpConfig = mailerFactory::createSMTPConfig(
                                 'kevin@clevelandconsulting.com', //USERNAME
                                 'C00kie22',                      //PASSWORD
                                 'tls',                           //SECURITY METHOD (tls or ssl or empty)
-                                $from,
-                                $replyTo,
-                                $to,
-                                50);                             //Word Wrapping Length
+                                $from,                           //FROM ADDRESS
+                                $replyTo,                        //REPLY TO ADDRESS
+                                $to,                             //EMAIL SENT TO ADDRESS
+                                100);                             //Word Wrapping Length
+
+// Set up the folder structure, relative to the top folder
+$uploadFolder = 'uploads';                                       //Name of the upload folder
+$logFolder = 'logs';                                             //Name of the log folder
+
+$appConfig = new config($logFolder,$uploadFolder);
 
 
-$app = new mhApp($smtpConfig);
+/* DON'T CHANGE ANYTHING BELOW */
+
+$app = new mhApp($smtpConfig, $appConfig);
 
 $app->router->defineRoute(new route('upload','uploadController'));
 $app->router->defineRoute(new route('sendjob', 'sendjobController'));
