@@ -32,7 +32,7 @@ class sendjobController extends viewController {
   $data = '';
   
   if($test) {
-   $data = json_decode(file_get_contents('sample2.json'));
+   $data = json_decode(file_get_contents('largeSample.json'));
   }
   else {
    if (isset($_POST['data'])) {
@@ -96,6 +96,7 @@ class sendjobController extends viewController {
     $this->app->mailer->addAttachment($this->app->getUploadFilePath() . $attachment, $attachment);
    }
   }
+  
   $subject = "New Job Request";
   $body = $message['body'];
   $altBody = $message['altbody']; //'This is the body in plain text for non-HTML mail clients';
@@ -103,7 +104,7 @@ class sendjobController extends viewController {
   $result = $this->app->mailer->sendMail($subject,$body,$altBody,true);
     
   if(!$result) {
-   $this->setError(500,"Email could not be delivered. " . $mail->ErrorInfo);
+   $this->setError(500,"Email could not be delivered. " . $this->app->mailer->ErrorInfo);
   } else {
    $this->setResponse(200,"Job data has been delivered!");
   }

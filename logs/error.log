@@ -1135,3 +1135,24 @@ Array
 	URI/Method: /index.php?action=sendjob GET
 
 
+2014-06-12 12:00:11 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: / GET
+
+
+2014-06-12 12:03:00 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php GET
+
+
+2014-06-12 12:05:09 : Email could not be delivered. 
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.74.9 (KHTML, like Gecko) (Coda, like Safari)
+	Content:  
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=2238 GET
+
+
