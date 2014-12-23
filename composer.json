@@ -1,6 +1,7 @@
 {
     "require": {
         "phpmailer/phpmailer": "5.2.*",
-        "mustache/mustache": "~2.5"
+        "mustache/mustache": "~2.5",
+        "guzzlehttp/guzzle": "5.0.x"
     }
 }

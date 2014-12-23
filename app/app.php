@@ -5,7 +5,6 @@ date_default_timezone_set('America/Detroit');
 require_once('../vendor/autoload.php');
 require_once('mhApp.php');
 
-
 //configure reply to and from addresses for emails sent out
 $replyTo = mailerFactory::createAddress('info@clevelandconsulting.com', 'Information');
 $from = mailerFactory::createAddress('kevin@clevelandconsulting.com','Mailer');

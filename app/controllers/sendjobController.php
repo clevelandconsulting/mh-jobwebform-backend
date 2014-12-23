@@ -89,6 +89,17 @@ class sendjobController extends viewController {
  
  private function sendJobRequest($message) {
  
+  $options = [
+	  'verify' => false,
+	  'auth' => ['Developer', 'letmein']
+  ];
+ 
+  $client = new GuzzleHttp\Client();
+  $result = $client->post('https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Job.json',$options);
+  
+  print_r($result);
+  die();
+ 
   //add attachments
   $attachments = $this->getAttachments();
   if (is_array($attachments)) {

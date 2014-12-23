@@ -34,7 +34,7 @@ class jobHandler extends model {
    $job->discipline = $data->discipline;
    $job->costCenter = $data->costCenter;
    $job->title = $data->title;
-   $job->creativeBrief = $data->creativeBrief;
+   if (isset($data->creativeBrief)) $job->creativeBrief = $data->creativeBrief;
    $job->fieldMarketing = $data->fieldMarketing;
    if ($data->multipleCollateral == 'yes') $job->multipleCollateralType = $data->multipleCollateralType;
    $job->manager = $managers;

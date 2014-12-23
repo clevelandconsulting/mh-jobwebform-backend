@@ -1156,3 +1156,108 @@ Array
 	URI/Method: /index.php?action=sendjob&sessionId=2238 GET
 
 
+2014-11-17 08:16:57 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36
+	Content:  
+	Origin/Referrer:  
+	URI/Method: / GET
+
+
+2014-12-23 09:26:23 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content:  
+	Origin/Referrer:  
+	URI/Method: / GET
+
+
+2014-12-23 10:21:51 : Action not sent.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content:  
+	Origin/Referrer:  
+	URI/Method: / GET
+
+
+2014-12-23 10:22:41 : Missing job data.
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 11 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{data:data}
+
+2014-12-23 10:35:23 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:39:58 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:40:14 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:40:34 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:41:03 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:43:25 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:47:35 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: CocoaRestClient/12 CFNetwork/673.3 Darwin/13.3.0 (x86_64) (MacPro3%2C1)
+	Content: 668 application/x-www-form-urlencoded
+	Origin/Referrer:  
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:50:16 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:52:11 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:52:21 : cURL error 60: SSL certificate problem: Invalid certificate chain
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
+2014-12-23 10:52:33 : Client error response [url] https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Job.json [status code] 401 [reason phrase] Unauthorized
+	Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+	Content: 668 text/plain;charset=UTF-8
+	Origin/Referrer: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm 
+	URI/Method: /index.php?action=sendjob&sessionId=23523523423 POST
+{"data":{"collateral":{"print-digital":[{"useFieldMarketing":false,"type":"print-digital","data":{"deliveryDate":"2014-12-10","warehouse":"yes","estimateQuantity":"634345"}}]},"requestDate":"2014-12-16","mediums":{},"requestorName":"ert","product":{"name":"Chemistry Chang","value":"Chemistry Chang","discipline":"Advanced Placement / Honors","portfolio":"Specialized Solutions"},"productValue":"Chemistry Chang","portfolio":"Specialized Solutions","discipline":"Advanced Placement / Honors","costCenter":"523234","multipleCollateral":"no","medium":"print-digital","title":"twewwe","relationshipManager":"Manager 1","productManager":"Manager 1","fieldMarketing":"no"}}
+
