@@ -17,6 +17,10 @@ class sendjobView extends httpView {
 
  }
  
+ public function jobToJson($job) {
+	 return json_encode(array("data"=>array($job)));
+ }
+ 
  public function renderJobs($jobs, $sessionId) {
   $jobHTMLArray = Array();
   foreach($jobs as $job) {

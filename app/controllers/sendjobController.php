@@ -47,8 +47,55 @@ class sendjobController extends viewController {
   }
   else {
    try {
-    $this->jobHandler = new jobHandler($data);
+    $this->jobHandler = new jobHandler($data, $this->app->getUploadFilePath());
     $jobs = $this->jobHandler->getJobs();
+    
+    $client = new GuzzleHttp\Client();
+    
+    foreach($jobs as $job) {
+    
+	    $options = [
+				  'verify' => false,
+				  'auth' => ['Developer', 'letmein'],
+				  'body' => $this->view->jobToJson($job)
+			  ];
+			  
+			  //echo $job->medium . "<br />";
+			  //print_r($job->getTypeData());
+			  
+			  //print_r($options['body']);
+			  //echo "<br /><br /><br />";
+			  //die();
+			 
+			  $result = $client->post('https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Api.Job.json',$options);
+			  $data = json_decode($result->getBody()->getContents());
+			  $guid = $data->data[0]->__guid;
+			  print_r($guid);
+			  echo "<br /><br /><br />";
+			  //die();
+		 
+    }
+    
+    echo "ATTACHMENTS<br /><br />";
+    $attachments = $this->getAttachments();
+		  if (is_array($attachments)) {
+		   foreach($attachments as $attachment) {
+			   $path = $this->app->getUploadFilePath() . $attachment;
+			   
+			   $type = pathinfo($path, PATHINFO_EXTENSION);
+						$data = file_get_contents($path);
+						$base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);
+			   
+			   echo $base64;
+		    //$this->app->mailer->addAttachment($this->app->getUploadFilePath() . $attachment, $attachment);
+		    print_r($attachment);
+		   }
+		  }
+    
+    die();
+    
+    
+    
     
     $htmlMessage = $this->view->renderJobs($jobs, $this->app->getSessionId());
     $altMessage = '';
@@ -89,18 +136,7 @@ class sendjobController extends viewController {
  
  private function sendJobRequest($message) {
  
-  $options = [
-	  'verify' => false,
-	  'auth' => ['Developer', 'letmein']
-  ];
- 
-  $client = new GuzzleHttp\Client();
-  $result = $client->post('https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Job.json',$options);
-  
-  print_r($result);
-  die();
- 
-  //add attachments
+    //add attachments
   $attachments = $this->getAttachments();
   if (is_array($attachments)) {
    foreach($attachments as $attachment) {
