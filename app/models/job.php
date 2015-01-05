@@ -121,14 +121,14 @@ class fmJob extends model {
 	
 	public $version_type;
 	
-	//public $revision_type;
-	//public $revision_number;
-	//public $print_project_details;
-	//public $microsite_time_priority;
-	//public $microsite_budget_priority;
-	//public $microsite_quality_priority;
- //public $media_length;
- //public $campaign_end_date;
+	public $revision_type;
+	public $revision_number;
+	public $print_project_details;
+	public $microsite_time_priority;
+	public $microsite_budget_priority;
+	public $microsite_quality_priority;
+ public $media_length;
+ public $campaign_end_date;
 	
 	public function parseDate($date) {
 		$parsed = DateTime::createFromFormat('Y-m-d', $date);
@@ -171,10 +171,10 @@ class fmJob extends model {
 		  $this->in_warehouse_f = $this->typeData['warehouse'] === 'yes' ? 1 : 0;
 		  $this->quantity = $this->typeData['estimateQuantity'];
 		  $this->version_type = $this->typeData['isRevision'] ? "Revision" : "Original";
-		  //$this->revision_type = $this->typeData['revisionType'];
-		  //$this->revision_number = $this->typeData['revisionNumber'];
+		  $this->revision_type = $this->typeData['revisionType'];
+		  $this->revision_number = $this->typeData['revisionNumber'];
 		  $this->linked_opportunity = $this->typeData['opportunity'];
-		  //$this->print_project_details = $this->typeData['specificProjectDetails'];
+		  $this->print_project_details = $this->typeData['specificProjectDetails'];
 		  $this->package_part_nums = $this->typeData['productISBNs'];
 		  $this->shipping = $this->typeData['shippingInstructions'];
 		  break;
@@ -183,7 +183,7 @@ class fmJob extends model {
 		  $this->medium = "Email";
 		  $this->version_type = "Original";
 		  $this->deployment_date = $this->parseDate($this->typeData['deploymentDate']);
-		  //$this->campaign_end_date = $this->parseDate($this->typeData['campaignEndDate']);
+		  $this->campaign_end_date = $this->parseDate($this->typeData['campaignEndDate']);
 		  $this->email_target_aud = $this->typeData['targetAudience'];
 		  $this->email_states = $this->parseArray($this->typeData['deploymentStates']);
 		  $this->email_grades = $this->parseArray($this->typeData['schoolBuildings']);
@@ -209,16 +209,16 @@ class fmJob extends model {
 		  $this->primary_audience = $this->typeData['primaryAudience'];
 		  $this->seconday_audience = $this->typeData['secondaryAudience'];
 		  $this->tertiary_audience = $this->typeData['tertiaryAudience'];
-		  //$this->microsite_budget_priority = $this->typeData['priorities']->budget;
-		  //$this->microsite_time_priority = $this->typeData['priorities']->time;
-		  //$this->microsite_quality_priority = $this->typeData['priorities']->quality;
+		  $this->microsite_budget_priority = $this->typeData['priorities']->budget;
+		  $this->microsite_time_priority = $this->typeData['priorities']->time;
+		  $this->microsite_quality_priority = $this->typeData['priorities']->quality;
 		 break;
 		 
 		 case 'socialmedia':
 		  $this->medium = "Social Media";
 		  $this->version_type = "Original";
 		  $this->deployment_date = $this->parseDate($this->typeData['deploymentDate']);
-		  //$this->media_length = $this->typeData['mediaLength'];
+		  $this->media_length = $this->typeData['mediaLength'];
 		  $this->media_URL = $this->typeData['link'];
 		  $this->media_network = $this->typeData['networkPath'];
 		  $this->prod_category = $this->parseArray($this->typeData['relatedCategories']);
@@ -275,6 +275,7 @@ class fmJob extends model {
 			  $base64 = $this->base64file($this->uploadPath . $this->typeData['photo'][0]);
 			  $this->objective = $base64;
 			  $this->webinar_presenter_photo = $base64; 
+			  $this->webinar_presenter_photoname = $this->typeData['photo'][0];
 		  }
 		  // = $this->typeData['photo'];
 		 break;

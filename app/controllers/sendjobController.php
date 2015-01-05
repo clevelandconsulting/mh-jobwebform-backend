@@ -67,7 +67,7 @@ class sendjobController extends viewController {
 			  //echo "<br /><br /><br />";
 			  //die();
 			 
-			  $result = $client->post('https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Api.Job.json',$options);
+			  $result = $client->post('https://10.0.1.185/RESTfm/MHMarketingMgt/layout/Api-job.json?RFMscript=Job.RestFM.Finalize',$options);
 			  $data = json_decode($result->getBody()->getContents());
 			  $guid = $data->data[0]->__guid;
 			  print_r($guid);
